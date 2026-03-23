@@ -6,10 +6,9 @@
 To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
-
+Predict future stock prices using an RNN model based on historical closing prices from trainset.csv and testset.csv, with data normalized using MinMaxScaler.
 
 ## Design Steps
-
 
 ### Step 1:
 Import necessary libraries.
@@ -20,16 +19,16 @@ Load and preprocess the data.
 ### Step 3:
 Create input-output sequences.
 
-### Step 2:
+### Step 4:
 Convert data to PyTorch tensors.
 
-### Step 3:
+### Step 5:
 Define the RNN model.
 
-### Step 2:
+### Step 6:
 Train the model using the training data.
 
-### Step 3:
+### Step 7:
 Evaluate the model and plot predictions.
 
 
